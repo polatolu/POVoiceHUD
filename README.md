@@ -9,6 +9,7 @@
 ## Usage
 
 **1. On viewDidLoad event create the POVoiceHUD instance.**
+
     `self.voiceHud = [[POVoiceHUD alloc] initWithParentView:self.view];
     self.voiceHud.title = @"Speak Now";
 
@@ -16,9 +17,11 @@
     [self.view addSubview:self.voiceHud];`
 
 **2. Use startForFilePath method to start recording.**
+
     `[self.voiceHud startForFilePath:[NSString stringWithFormat:@"%@/Documents/MySound.caf", NSHomeDirectory()]];`
 
 **3. Done.**
+
     POVoiceHUD will appear on your view after startForFilePath is called and will call appropriate delegate (`POVoiceHUDDelegate`) methods for notifying you.
 
 ## Required Frameworks
