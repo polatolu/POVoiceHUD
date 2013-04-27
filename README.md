@@ -22,7 +22,7 @@
 
 **3. Done.**
 
-    POVoiceHUD will appear on your view after startForFilePath is called and will call appropriate delegate (`POVoiceHUDDelegate`) methods for notifying you.
+POVoiceHUD will appear on your view after `startForFilePath` is called and will call appropriate delegate (POVoiceHUDDelegate) methods for notifying you.
 
 ## Required Frameworks
 
