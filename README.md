@@ -10,15 +10,15 @@
 
 **1. On viewDidLoad event create the POVoiceHUD instance.**
 
-    `self.voiceHud = [[POVoiceHUD alloc] initWithParentView:self.view];
+    self.voiceHud = [[POVoiceHUD alloc] initWithParentView:self.view];
     self.voiceHud.title = @"Speak Now";
 
     [self.voiceHud setDelegate:self];
-    [self.view addSubview:self.voiceHud];`
+    [self.view addSubview:self.voiceHud];
 
 **2. Use startForFilePath method to start recording.**
 
-    `[self.voiceHud startForFilePath:[NSString stringWithFormat:@"%@/Documents/MySound.caf", NSHomeDirectory()]];`
+    [self.voiceHud startForFilePath:[NSString stringWithFormat:@"%@/Documents/MySound.caf", NSHomeDirectory()]];
 
 **3. Done.**
 
@@ -30,6 +30,8 @@ There is 3rd party frameworks required for POVoiceHUD but you need to add some E
 
 - AVFoundation.framework
 - AudioToolbox.framework
+- CoreGraphics.framework
+- QartzCore.framework
 
 ## Contribution
 
