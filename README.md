@@ -1,6 +1,6 @@
 # POVoiceHUD
 
-`POVoiceHUD` is a HUD for voice recording on iOS devices. It's interface designed like Google Translate's Voice Input interface on mobile applications. It currently records 20 seconds of voice input and stores in a local file on the device. If user stops talking before 20 seconds, it stops recording.
+`POVoiceHUD` is a HUD for voice recording on iOS devices. Its interface designed like Google Translate's Voice Input interface on mobile applications. It currently records 20 seconds of voice input and stores in a local file on the device. If user stops talking before 20 seconds, it stops recording.
 
 ## Screen Shot Sample
 
@@ -26,7 +26,7 @@ POVoiceHUD will appear on your view after `startForFilePath` is called and will 
 
 ## Required Frameworks
 
-There is 3rd party frameworks required for POVoiceHUD but you need to add some Existing Frameworks on iOS SDK.
+There are no 3rd party frameworks required for POVoiceHUD but you need to add some existing frameworks comes with iOS SDK.
 
 - AVFoundation.framework
 - AudioToolbox.framework
