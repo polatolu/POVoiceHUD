@@ -276,7 +276,7 @@
 
     // Draw title
     [color setFill];
-    [self.title drawInRect:CGRectInset(hudRect, 0, 25) withFont:[UIFont systemFontOfSize:42.0] lineBreakMode:UILineBreakModeWordWrap alignment:UITextAlignmentCenter];
+    [self.title drawInRect:CGRectInset(hudRect, 0, 25) withFont:[UIFont systemFontOfSize:42.0] lineBreakMode:NSLineBreakByWordWrapping alignment:NSTextAlignmentCenter];
 
     [imgMicrophone drawAtPoint:CGPointMake(hudRect.origin.x + hudRect.size.width/2 - imgMicrophone.size.width/2, hudRect.origin.y + hudRect.size.height/2 - imgMicrophone.size.height/2)];
     
