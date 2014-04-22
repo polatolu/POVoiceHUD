@@ -42,7 +42,7 @@
 @interface POVoiceHUD : UIView <AVAudioRecorderDelegate> {
     UIButton *btnCancel;
     UIImage *imgMicrophone;
-    int soundMeters[40];
+    int soundMeters[SOUND_METER_COUNT];
     CGRect hudRect;
     
 	NSMutableDictionary *recordSetting;
